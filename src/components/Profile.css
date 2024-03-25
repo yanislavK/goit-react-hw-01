@@ -1,10 +1,87 @@
-/* src/components/Alert.css */
 
 .profile {
-    border: 5px solid;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 12px auto;
+  /* padding: 5px; */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  padding-top: 20px;
+  background-color: #ffffff;
+  border-color: black;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tag {
+  margin: 0 0 10px;
+  color: rgb(110, 110, 110);
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.location {
+  margin: 0 0 10px;
+  color: rgb(110, 110, 110);
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.avatar {
+  display: block;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  background-color: #313131;
+}
+
+.profile-list {
+  background-color: #ccc;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 16px 0 0;
+  width: 100%;
+  padding-left: 0px;
+  border-top: 1px solid black;
+}
+
+.profile-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.profile-list-2nd-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  font-size: 24px;
+  margin-top: 0;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
 }
