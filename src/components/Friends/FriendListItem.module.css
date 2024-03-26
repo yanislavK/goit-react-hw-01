@@ -1,4 +1,16 @@
+.name {
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 5px;
+}
 
-.name{
-    font-weight: bold;
+.statusOnline {
+  color: rgb(0, 224, 37);
+  margin: 0;
+}
+
+.statusOffline {
+  color: red;
+  margin: 0;
 }
